@@ -1,0 +1,10 @@
+WAP to convert temperature in Celsius to Fahrenheit
+
+Celsius=int(input("enter the temperature to be calculated:"))
+fahrenheit=(9/5)*Celsius+32
+print("temperature in Fahrenheit is:",fahrenheit)
+
+
+O/P:
+enter the temperature to be calculated:23
+temperature in Fahrenheit is:73.4

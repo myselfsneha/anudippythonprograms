@@ -1,0 +1,17 @@
+Python program to get the Fibonacci series between 0 to 50
+
+
+def fibonacci_series(n):
+  fib_series = [0, 1]
+  while fib_series[-1] < n:
+    next_fib = fib_series[-1] + fib_series[-2]
+    if next_fib <= n:
+      fib_series.append(next_fib)
+    else:
+      break
+  return fib_series
+result = fibonacci_series(50)
+print(result)
+
+
+O/P:[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]

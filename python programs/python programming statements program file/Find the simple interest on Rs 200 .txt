@@ -1,0 +1,20 @@
+Find the simple interest on Rs 200 for 5 years at 5% per year
+
+def simple_interest(p,r,t):
+    print("the principle is:",p)
+    print("the rate of interest is:",r)
+    print("the time period is:",t)
+
+    si=(p*r*t)/100
+    
+    print("simple interest is:",si)
+    return si
+
+simple_interest(200,5,5)
+
+
+O/P:
+the principle is:200
+the rate of interest is:5
+the time period is:5
+simple interest is:50.0

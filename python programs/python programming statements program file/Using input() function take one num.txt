@@ -1,0 +1,13 @@
+Using input() function take one number from the user and using ternary operators check whether the number is even or odd
+
+n=int(input("enter a number:"))
+if(n%2==0):
+  print("the number",n,"is even")
+else:
+  print("the number",n,"is odd")
+
+O/P:
+enter a number:24
+the number 24 is even
+enter a number:9
+the number is odd

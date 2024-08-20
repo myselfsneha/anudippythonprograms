@@ -1,0 +1,18 @@
+a=3
+b=8
+if(a<b):
+    print("small")
+else:
+    print("big")
+c=5
+d=10
+if(c<=d):
+    print("boom")
+else:
+    print("shit")
+p=7
+q=7
+if(p!=q):
+    print("IQ")
+else:
+    print("Newton")

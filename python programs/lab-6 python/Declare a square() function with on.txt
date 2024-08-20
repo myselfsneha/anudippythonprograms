@@ -1,0 +1,16 @@
+Declare a square() function with one parameter.Then call the function and pass one number and display the square of that number
+
+
+import math
+
+def square(number):
+    return(square)
+
+number = int(input("what is the number")
+square = ("number**2")
+
+print(square)
+
+
+O/P:what is the number:24
+576

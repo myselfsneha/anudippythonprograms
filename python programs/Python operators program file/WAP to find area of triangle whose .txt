@@ -1,0 +1,15 @@
+WAP to find area of triangle whose sides are given
+
+a=12
+b=13
+c=15
+print("using heron's formula")
+s=(a+b+c)/2
+print("semi-perimeter of triangle is:",s)
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print("area of triangle is:",area)
+
+O/P:
+using heron's formula
+semi-perimeter of triangle is:40
+area of triangle is:869.4826047713664

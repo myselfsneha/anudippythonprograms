@@ -1,0 +1,9 @@
+Declare a div() function with two parameters. Then call the function and pass two numbers and display their division
+
+
+def div(a,b):
+    return a/b
+print(div(27,9))
+
+
+O/P:3.0

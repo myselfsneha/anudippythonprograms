@@ -1,0 +1,9 @@
+Accept a name from the user and display that in lower case using lower() function
+
+
+name=input("What's your name?:")
+print("My name is:",name.lower())
+
+
+O/P:What's your name?:sneha
+My name is: sneha

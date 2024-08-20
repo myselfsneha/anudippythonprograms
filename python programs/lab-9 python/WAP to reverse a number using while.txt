@@ -1,0 +1,13 @@
+WAP to reverse a number using while loop
+
+
+num=1234
+reverse=0
+while(num!=0):
+     digit=num%10
+     reverse=reverse*10+digit
+     num//=10
+print("reverse number:"+str(reverse))
+
+
+O/P:reversed number:4321

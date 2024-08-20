@@ -1,0 +1,15 @@
+Using input function take two numbers and then swap the numbers
+
+a=int(input("enter the first number:"))
+b=int(input("enter the second number:"))
+print("the numbers before swapping the values are:",a,b)
+c=b
+b=a
+a=c
+print("the numbers after swapping the values are:",a,b)
+
+O/P:
+enter the first number:2
+enter the second number:5
+the numbers before swapping the values are:2 5
+the numbers after swapping the values are: 5 2

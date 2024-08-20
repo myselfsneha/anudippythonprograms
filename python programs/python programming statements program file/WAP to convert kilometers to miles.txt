@@ -1,0 +1,9 @@
+WAP to convert kilometers to miles
+
+kms=int(input("enter the distance in kms:"))
+miles=kms*0.621371
+print("the distance in miles is:",miles)
+
+O/P:
+enter the distance in kms:5
+the distance in miles is:3.106855

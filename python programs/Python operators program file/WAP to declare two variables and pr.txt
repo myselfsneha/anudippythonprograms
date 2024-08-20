@@ -1,0 +1,12 @@
+WAP to declare two variables and print that which variable is largest using ternary operator
+
+a=12
+b=50
+if(a>b):
+  print("a is greatest",a)
+else:
+  print("b is greatest",b)
+
+
+O/P:
+b is greatest 50

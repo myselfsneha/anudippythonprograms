@@ -1,0 +1,16 @@
+Create a program that checks if user-given number is positive, negative or zero
+
+n=int(input("enter a number:"))
+if(n>0):
+    print("the given no",n,"is +ve")
+elif(n<0):
+    print("the given no",n,"is -ve")
+elif(n==0):
+    print("the given no",n,"is 0")
+else:
+    print("wrong choice!")
+
+
+O/P:
+enter a number:9
+the given no 9 is +ve

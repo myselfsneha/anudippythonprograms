@@ -1,0 +1,13 @@
+Using max() and min() functions display the maximum and minimum of 5 random numbers
+
+
+import random
+randomlist = random.sample(range(10, 30), 5)
+print(randomlist)
+print(min(randomlist))
+print(max(randomlist))
+
+
+O/P:[25, 19, 13, 29, 17]
+13
+29

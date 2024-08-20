@@ -1,0 +1,13 @@
+WAP for finding the factorial of given number using while loop
+
+
+n=int(input(""enter any number:))
+f=1
+while(n>=1):
+     f*=n
+     n-=1
+print("factorial is:",f)
+
+
+O/P:enter any number:9
+factorial is:362880

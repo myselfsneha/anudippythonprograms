@@ -1,0 +1,18 @@
+Accept numbers using input() function until user enter 0. If user input 0 then break while loop and display sum of all numbers.
+
+
+sum=0
+while True:
+     number=(int(input("enter a number(0 to stop):")))
+     if(number==0):
+        break
+     sum+=number
+print("the sum of the numbers is:",sum)
+
+
+O/P:enter a number(0 to stop):4
+enter a number(0 to stop):7
+enter a number(0 to stop):3
+enter a number(0 to stop):8
+enter a number(0 to stop):0
+the sum of the numbers is:22

@@ -1,0 +1,14 @@
+Create a program that checks whether a person is eligible to vote(18 years or older) based on their age
+
+age=23
+voting=False
+
+if(age>=18):
+    voting=True
+    print("you're eligible for voting")
+else:
+    print("you're not eligible for voting")
+
+
+O/P:
+you're eligible for voting
